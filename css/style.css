@@ -1,4 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -18,5 +19,126 @@ body {
 
 img {
   max-width: 100%;
+}
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+#main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 82px;
+  border-bottom: 2px solid #ddd;
+}
+
+#main-header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#main-header .navbar .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-header .navbar .left .side-menu-toggler {
+  font-size: 20px;
+  background: transparent;
+  padding: 1px 4px;
+  border: none;
+  margin-right: 26px;
+  cursor: pointer;
+}
+
+#main-header .navbar .left .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+#main-header .navbar .left .logo i {
+  margin-right: 4px;
+  color: #6d63fd;
+}
+
+#main-header .navbar .left .logo span {
+  line-height: 0px;
+  color: #031940;
+}
+
+#main-header .navbar .middle .search form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 32px;
+  background: #ddd;
+  width: 300px;
+  position: relative;
+  border: 2px solid #ddd;
+  border-radius: 3px;
+}
+
+#main-header .navbar .middle .search form input#search-input {
+  width: 86%;
+  height: 100%;
+  padding: 2px 7px;
+  border: none;
+  color: #031940;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+#main-header .navbar .middle .search form button {
+  width: 16%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+  color: #031940;
+}
+
+#main-header .navbar .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-header .navbar .right img {
+  width: 60px;
 }
 /*# sourceMappingURL=style.css.map */

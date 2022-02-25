@@ -1,14 +1,16 @@
 // Import All Extarnal Links
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
 
 // Deaclare All Variables
+$roboto-serif: 'Roboto Serif', sans-serif;
+$roboto: 'Roboto', sans-serif;
 
 
-
+$black: #031940;
+$blue: #6d63fd;
 
 
 
@@ -33,4 +35,13 @@ body{
 
 img{
     max-width: 100%;
+}
+
+
+
+
+// All Components
+.container{
+    width: 1220px;
+    margin: 0 auto;
 }
