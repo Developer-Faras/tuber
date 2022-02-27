@@ -138,7 +138,25 @@ img {
           align-items: center;
 }
 
-#main-header .navbar .right img {
-  width: 60px;
+#main-header .navbar .right .button {
+  display: block;
+  margin: 0.4rem;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+  color: #031940;
+}
+
+#main-header .navbar .right .button.profile {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  overflow: hidden;
+  padding: 0;
+}
+
+#main-header .navbar .right .button.profile img {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
